@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayMusic</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <img class="close"src="iimages/close.svg" alt="">
+            <div class="home bg-grey m-1 border-radius">
+                <div class="spotify  fontweight flex align-center">
+                    <img src="favicon.ico" width="30px" alt=""> Enjoy the Beats!
+                </div>
+                <ul class=" flex font-size fontweight">
+                    <li class="flex align-center gap padding"><img class="img-size" src="iimages/home.svg"
+                            alt="image">Home</li>
+                    <li class="flex align-center gap padding opacity"><img class="img-size" src="iimages/search.svg"
+                            alt="image">Search</li>
+                </ul>
+            </div>
+            <div class="home2 bg-grey m-1 border-radius">
+                <div class="library flex align-center space-between bg-grey m-1 border-radius">
+                    <div class="lib flex fontweight align-center gap font-size">
+                        <img src="iimages/lib.svg " class="img-size invert opacity" alt="">
+                        <div class="opacity">Your Library</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="songs">
+                    <ul>
+                      
+                    </ul>
+                </div>
+            </div>
+          
+        <div class="right bg-grey border-radius">
+            <div class="stickbox flex align-center space-between">
+                <div class="icons flex gap pos-left">
+                    <img class="ham" src="iimages/hamburger.svg" alt="">
+                    <img src="iimages/lefticon.svg" alt="">
+                    <img src="iimages/righticon.svg" alt="">
+                </div>
+                <div class=" buttons2 font-size ">
+                    <button class="signin f-1rem b-none  ">Sign up</button>
+                    <button class="login font-size f-1rem b-none fontweight">Log in</button>
+                </div>
+            </div>
+            <div class="information flex dir-c gap">
+                <div class="artists  ">
+                    <div class="heading flex space-between ">
+                        <div class="popnames f-15rem poppins fontweight">
+                            Popular Playlists
+                        </div>
+                        <div class="showall opacity ">
+                            Show all
+                        </div>
+                    </div>
+                    <div class="cardContainer flex poppins ">
+                        <div class="card">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e1caf170882c6f8a2913e82" alt="">
+                        <h3>Happy Hits!</h3>
+                        <div class="textincard">
+                            Hits to boost your mood and fill you with happiness
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgdiv">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e1caf170882c6f8a2913e82" alt="">
+                    </div>
+                        <h3>Happy Hits!</h3>
+                        <div class="textincard">
+                            Hits to boost your mood and fill you with happiness
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e1caf170882c6f8a2913e82" alt="">
+                        <h3>Happy Hits!</h3>
+                        <div class="textincard">
+                            Hits to boost your mood and fill you with happiness
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e1caf170882c6f8a2913e82" alt="">
+                        <h3>Happy Hits!</h3>
+                        <div class="textincard">
+                            Hits to boost your mood and fill you with happiness
+                        </div>
+                    </div>
+
+                       
+
+                    </div>
+
+                </div>
+
+            </div>
+           
+            <div class="playbar">
+                <div class="mainbar">
+                    <div class="songinfo"></div>
+                    <div class="songbuttons">
+                <i class="ri-skip-left-fill previous"></i>
+               <img class ="img play" src="iimages/play.svg" alt="">
+               <i class="ri-skip-right-fill next "></i>
+            </div>
+              <div class="songtime"></div>
+             </div>
+             <div class="seekbar">
+                <div class="progress"></div>
+                <div class="circle">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
